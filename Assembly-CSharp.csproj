@@ -37,7 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Extensions.cs" />
      <Compile Include="Assets\Scripts\SideScrolling.cs" />
+     <Compile Include="Assets\Scripts\ScriptPlayerRender.cs" />
+     <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Programms\Unity 2020.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

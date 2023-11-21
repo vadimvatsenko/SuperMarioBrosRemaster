@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - PowerUP
+  - Enemy
   - 
   - 
   - 
@@ -43,18 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 1007449859
+  - name: Blocks - 5
+    uniqueID: 582290701
     locked: 0
-  - name: Powerups
-    uniqueID: 908403761
+  - name: Pipes - 4
+    uniqueID: 75213907
     locked: 0
-  - name: Enemies
-    uniqueID: 2498014029
-    locked: 0
-  - name: Mario
+  - name: Mario - 3
     uniqueID: 3708988747
     locked: 0
-  - name: Blocks
-    uniqueID: 582290701
+  - name: Enemies - 2
+    uniqueID: 2498014029
+    locked: 0
+  - name: Powerups - 1
+    uniqueID: 908403761
+    locked: 0
+  - name: Background - 0
+    uniqueID: 1007449859
     locked: 0
