@@ -116,7 +116,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) // тут будет решатся проблема столновения головы с другими обьектами
     {
-        if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUP")) // если слой столкновения не является PowerUP, то выполни код
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy")) // тут проверяем столкновение с головой врага
+        {
+            if (transform.DotTest(collision.transform, Vector2.down)) // передает во внешнюю функцию
+            {
+                velocity.y = jumpForce / 2f;// немного подпрыгивает на враге
+                jumping = true;
+            }
+        }
+        else if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUP")) // если слой столкновения не является PowerUP, то выполни код
         {
             if (transform.DotTest(collision.transform, Vector2.up)) // если мы столкнулись головой с другим обьектом
             {

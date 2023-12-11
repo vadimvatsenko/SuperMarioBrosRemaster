@@ -3,7 +3,7 @@ using UnityEngine;
 public class AnimatedSprite : MonoBehaviour
 {
     [SerializeField] private Sprite[] sprites;
-    [SerializeField] private float _framerate = 1f / 6f; // будет переключатся между шестью кадрами в секунду
+    [SerializeField] private float _framerate = 1f / 12f; // будет переключатся между шестью кадрами в секунду
 
     private SpriteRenderer _spriteRenderer;
     private int _frame;

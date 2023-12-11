@@ -269,6 +269,126 @@ TextureImporter:
   - first:
       213: 7658707252623508868
     second: Enemies & Bosses_152
+  - first:
+      213: -5665603703198334654
+    second: Enemies & Bosses_0
+  - first:
+      213: -3677130104092000292
+    second: Enemies & Bosses_1
+  - first:
+      213: -6732095269657428271
+    second: Enemies & Bosses_2
+  - first:
+      213: -8127278185508520517
+    second: Enemies & Bosses_3
+  - first:
+      213: 2790648809330751662
+    second: Enemies & Bosses_13
+  - first:
+      213: -8321249376189108094
+    second: Enemies & Bosses_14
+  - first:
+      213: 470223675873772129
+    second: Enemies & Bosses_15
+  - first:
+      213: 5589524641891375032
+    second: Enemies & Bosses_16
+  - first:
+      213: 9080474030652760351
+    second: Enemies & Bosses_26
+  - first:
+      213: -1102123716925185090
+    second: Enemies & Bosses_27
+  - first:
+      213: -4802820724912260366
+    second: Enemies & Bosses_28
+  - first:
+      213: 4670813196751601886
+    second: Enemies & Bosses_29
+  - first:
+      213: -4435688681214879224
+    second: Enemies & Bosses_30
+  - first:
+      213: 8243925467344149449
+    second: Enemies & Bosses_62
+  - first:
+      213: -754256176620099291
+    second: Enemies & Bosses_69
+  - first:
+      213: -5179148642813353741
+    second: Enemies & Bosses_70
+  - first:
+      213: 8363582192392333271
+    second: Enemies & Bosses_71
+  - first:
+      213: 7034627922156303901
+    second: Enemies & Bosses_72
+  - first:
+      213: 2626229568964814742
+    second: Enemies & Bosses_79
+  - first:
+      213: 6383576314385840568
+    second: Enemies & Bosses_80
+  - first:
+      213: -2629267387633298184
+    second: Enemies & Bosses_81
+  - first:
+      213: 2979293344260982585
+    second: Enemies & Bosses_82
+  - first:
+      213: -3008524946076287971
+    second: Enemies & Bosses_89
+  - first:
+      213: 339096751657349296
+    second: Enemies & Bosses_90
+  - first:
+      213: 7306896531584829962
+    second: Enemies & Bosses_91
+  - first:
+      213: -2272970574792840433
+    second: Enemies & Bosses_92
+  - first:
+      213: -2553292183878548538
+    second: Enemies & Bosses_99
+  - first:
+      213: 5192460311636843593
+    second: Enemies & Bosses_100
+  - first:
+      213: 7282664095509366831
+    second: Enemies & Bosses_101
+  - first:
+      213: -6565391770067113586
+    second: Enemies & Bosses_102
+  - first:
+      213: 3355049616964867673
+    second: Enemies & Bosses_103
+  - first:
+      213: -418556877981083358
+    second: Enemies & Bosses_104
+  - first:
+      213: 9097342759901134685
+    second: Enemies & Bosses_105
+  - first:
+      213: 3025012349973994066
+    second: Enemies & Bosses_106
+  - first:
+      213: -4635241466877976589
+    second: Enemies & Bosses_107
+  - first:
+      213: -2704477529378047087
+    second: Enemies & Bosses_108
+  - first:
+      213: -3357000957657232074
+    second: Enemies & Bosses_109
+  - first:
+      213: -1141267175692877702
+    second: Enemies & Bosses_110
+  - first:
+      213: -6788162487738593207
+    second: Enemies & Bosses_111
+  - first:
+      213: -1699848645976212761
+    second: Enemies & Bosses_112
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -373,12 +493,12 @@ TextureImporter:
       name: Enemies & Bosses_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 330
         width: 16
-        height: 24
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +514,12 @@ TextureImporter:
       name: Enemies & Bosses_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 160
         y: 330
         width: 16
-        height: 24
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +535,12 @@ TextureImporter:
       name: Enemies & Bosses_6
       rect:
         serializedVersion: 2
-        x: 64
+        x: 192
         y: 330
         width: 16
-        height: 24
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +556,12 @@ TextureImporter:
       name: Enemies & Bosses_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 224
         y: 330
         width: 16
-        height: 24
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +577,12 @@ TextureImporter:
       name: Enemies & Bosses_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 256
         y: 330
         width: 16
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +598,12 @@ TextureImporter:
       name: Enemies & Bosses_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 330
+        x: 0
+        y: 298
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +619,12 @@ TextureImporter:
       name: Enemies & Bosses_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 330
+        x: 32
+        y: 298
         width: 16
-        height: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,12 +640,12 @@ TextureImporter:
       name: Enemies & Bosses_11
       rect:
         serializedVersion: 2
-        x: 224
-        y: 330
+        x: 64
+        y: 298
         width: 16
-        height: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +661,12 @@ TextureImporter:
       name: Enemies & Bosses_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 330
+        x: 96
+        y: 298
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +682,12 @@ TextureImporter:
       name: Enemies & Bosses_17
       rect:
         serializedVersion: 2
-        x: 0
+        x: 256
         y: 298
         width: 16
-        height: 24
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -583,12 +703,12 @@ TextureImporter:
       name: Enemies & Bosses_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 298
+        x: 0
+        y: 266
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,12 +724,12 @@ TextureImporter:
       name: Enemies & Bosses_19
       rect:
         serializedVersion: 2
-        x: 64
-        y: 298
+        x: 32
+        y: 266
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -625,12 +745,12 @@ TextureImporter:
       name: Enemies & Bosses_20
       rect:
         serializedVersion: 2
-        x: 96
-        y: 298
+        x: 64
+        y: 266
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,12 +766,12 @@ TextureImporter:
       name: Enemies & Bosses_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 298
+        x: 96
+        y: 266
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,12 +787,12 @@ TextureImporter:
       name: Enemies & Bosses_22
       rect:
         serializedVersion: 2
-        x: 160
-        y: 298
+        x: 128
+        y: 266
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,12 +808,12 @@ TextureImporter:
       name: Enemies & Bosses_23
       rect:
         serializedVersion: 2
-        x: 192
-        y: 298
+        x: 160
+        y: 266
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,12 +829,12 @@ TextureImporter:
       name: Enemies & Bosses_24
       rect:
         serializedVersion: 2
-        x: 224
-        y: 298
+        x: 192
+        y: 266
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +850,12 @@ TextureImporter:
       name: Enemies & Bosses_25
       rect:
         serializedVersion: 2
-        x: 256
-        y: 298
+        x: 224
+        y: 266
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +871,12 @@ TextureImporter:
       name: Enemies & Bosses_31
       rect:
         serializedVersion: 2
-        x: 0
-        y: 266
+        x: 112
+        y: 250
         width: 16
-        height: 24
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,12 +892,12 @@ TextureImporter:
       name: Enemies & Bosses_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 266
+        x: 144
+        y: 250
         width: 16
-        height: 24
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,12 +913,12 @@ TextureImporter:
       name: Enemies & Bosses_33
       rect:
         serializedVersion: 2
-        x: 64
-        y: 266
+        x: 176
+        y: 250
         width: 16
-        height: 24
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,12 +934,12 @@ TextureImporter:
       name: Enemies & Bosses_34
       rect:
         serializedVersion: 2
-        x: 96
-        y: 266
+        x: 208
+        y: 250
         width: 16
-        height: 24
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -835,12 +955,12 @@ TextureImporter:
       name: Enemies & Bosses_35
       rect:
         serializedVersion: 2
-        x: 128
-        y: 266
+        x: 240
+        y: 250
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,12 +976,12 @@ TextureImporter:
       name: Enemies & Bosses_36
       rect:
         serializedVersion: 2
-        x: 160
-        y: 266
+        x: 272
+        y: 250
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -877,12 +997,12 @@ TextureImporter:
       name: Enemies & Bosses_37
       rect:
         serializedVersion: 2
-        x: 192
-        y: 266
-        width: 16
+        x: 1
+        y: 234
+        width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,12 +1018,12 @@ TextureImporter:
       name: Enemies & Bosses_38
       rect:
         serializedVersion: 2
-        x: 224
-        y: 266
+        x: 32
+        y: 234
         width: 16
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,12 +1039,12 @@ TextureImporter:
       name: Enemies & Bosses_39
       rect:
         serializedVersion: 2
-        x: 288
-        y: 266
+        x: 64
+        y: 234
         width: 16
-        height: 24
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,12 +1060,12 @@ TextureImporter:
       name: Enemies & Bosses_40
       rect:
         serializedVersion: 2
-        x: 320
-        y: 266
+        x: 96
+        y: 234
         width: 16
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,12 +1081,12 @@ TextureImporter:
       name: Enemies & Bosses_41
       rect:
         serializedVersion: 2
-        x: 16
-        y: 250
+        x: 128
+        y: 234
         width: 16
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,12 +1102,12 @@ TextureImporter:
       name: Enemies & Bosses_42
       rect:
         serializedVersion: 2
-        x: 48
-        y: 250
+        x: 160
+        y: 234
         width: 16
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1003,12 +1123,12 @@ TextureImporter:
       name: Enemies & Bosses_43
       rect:
         serializedVersion: 2
-        x: 80
-        y: 250
+        x: 192
+        y: 235
         width: 16
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1024,12 +1144,12 @@ TextureImporter:
       name: Enemies & Bosses_44
       rect:
         serializedVersion: 2
-        x: 112
-        y: 250
+        x: 224
+        y: 235
         width: 16
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1045,12 +1165,12 @@ TextureImporter:
       name: Enemies & Bosses_45
       rect:
         serializedVersion: 2
-        x: 144
-        y: 250
+        x: 256
+        y: 235
         width: 16
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1066,12 +1186,12 @@ TextureImporter:
       name: Enemies & Bosses_46
       rect:
         serializedVersion: 2
-        x: 176
-        y: 250
-        width: 16
+        x: 289
+        y: 234
+        width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1087,12 +1207,12 @@ TextureImporter:
       name: Enemies & Bosses_47
       rect:
         serializedVersion: 2
-        x: 208
-        y: 250
-        width: 16
+        x: 321
+        y: 234
+        width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1108,12 +1228,12 @@ TextureImporter:
       name: Enemies & Bosses_48
       rect:
         serializedVersion: 2
-        x: 240
-        y: 250
-        width: 16
+        x: 353
+        y: 234
+        width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1129,12 +1249,12 @@ TextureImporter:
       name: Enemies & Bosses_49
       rect:
         serializedVersion: 2
-        x: 272
-        y: 250
+        x: 144
+        y: 202
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,12 +1270,12 @@ TextureImporter:
       name: Enemies & Bosses_50
       rect:
         serializedVersion: 2
-        x: 0
-        y: 234
+        x: 176
+        y: 202
         width: 16
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1171,12 +1291,12 @@ TextureImporter:
       name: Enemies & Bosses_51
       rect:
         serializedVersion: 2
-        x: 32
-        y: 234
-        width: 16
+        x: 209
+        y: 202
+        width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1192,12 +1312,12 @@ TextureImporter:
       name: Enemies & Bosses_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 234
-        width: 16
+        x: 241
+        y: 202
+        width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1213,12 +1333,12 @@ TextureImporter:
       name: Enemies & Bosses_53
       rect:
         serializedVersion: 2
-        x: 96
-        y: 234
+        x: 272
+        y: 202
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1234,12 +1354,12 @@ TextureImporter:
       name: Enemies & Bosses_54
       rect:
         serializedVersion: 2
-        x: 128
-        y: 234
+        x: 304
+        y: 202
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1255,12 +1375,12 @@ TextureImporter:
       name: Enemies & Bosses_55
       rect:
         serializedVersion: 2
-        x: 160
-        y: 234
+        x: 0
+        y: 170
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1276,12 +1396,12 @@ TextureImporter:
       name: Enemies & Bosses_56
       rect:
         serializedVersion: 2
-        x: 192
-        y: 234
+        x: 32
+        y: 170
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1297,12 +1417,12 @@ TextureImporter:
       name: Enemies & Bosses_57
       rect:
         serializedVersion: 2
-        x: 224
-        y: 234
-        width: 16
-        height: 16
+        x: 65
+        y: 170
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1318,12 +1438,12 @@ TextureImporter:
       name: Enemies & Bosses_58
       rect:
         serializedVersion: 2
-        x: 256
-        y: 234
-        width: 16
-        height: 16
+        x: 97
+        y: 170
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1339,12 +1459,12 @@ TextureImporter:
       name: Enemies & Bosses_59
       rect:
         serializedVersion: 2
-        x: 288
-        y: 234
-        width: 16
+        x: 131
+        y: 170
+        width: 10
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1360,12 +1480,12 @@ TextureImporter:
       name: Enemies & Bosses_60
       rect:
         serializedVersion: 2
-        x: 320
-        y: 234
+        x: 144
+        y: 173
         width: 16
-        height: 16
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1381,12 +1501,12 @@ TextureImporter:
       name: Enemies & Bosses_61
       rect:
         serializedVersion: 2
-        x: 352
-        y: 234
+        x: 16
+        y: 138
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1402,12 +1522,12 @@ TextureImporter:
       name: Enemies & Bosses_63
       rect:
         serializedVersion: 2
-        x: 144
-        y: 202
-        width: 16
-        height: 16
+        x: 81
+        y: 138
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1423,12 +1543,12 @@ TextureImporter:
       name: Enemies & Bosses_64
       rect:
         serializedVersion: 2
-        x: 176
-        y: 202
-        width: 16
-        height: 16
+        x: 113
+        y: 138
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1444,12 +1564,12 @@ TextureImporter:
       name: Enemies & Bosses_65
       rect:
         serializedVersion: 2
-        x: 208
-        y: 202
-        width: 16
+        x: 147
+        y: 138
+        width: 10
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1465,12 +1585,12 @@ TextureImporter:
       name: Enemies & Bosses_66
       rect:
         serializedVersion: 2
-        x: 240
-        y: 202
+        x: 160
+        y: 141
         width: 16
-        height: 16
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1486,12 +1606,12 @@ TextureImporter:
       name: Enemies & Bosses_67
       rect:
         serializedVersion: 2
-        x: 272
-        y: 202
+        x: 32
+        y: 106
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1507,12 +1627,12 @@ TextureImporter:
       name: Enemies & Bosses_68
       rect:
         serializedVersion: 2
-        x: 304
-        y: 202
+        x: 64
+        y: 106
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1529,11 +1649,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 170
-        width: 16
-        height: 24
+        y: 42
+        width: 32
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1549,12 +1669,12 @@ TextureImporter:
       name: Enemies & Bosses_74
       rect:
         serializedVersion: 2
-        x: 32
-        y: 170
-        width: 16
-        height: 24
+        x: 48
+        y: 42
+        width: 32
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1570,12 +1690,12 @@ TextureImporter:
       name: Enemies & Bosses_75
       rect:
         serializedVersion: 2
-        x: 64
-        y: 170
-        width: 16
-        height: 24
+        x: 96
+        y: 42
+        width: 32
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1591,12 +1711,12 @@ TextureImporter:
       name: Enemies & Bosses_76
       rect:
         serializedVersion: 2
-        x: 96
-        y: 170
-        width: 16
-        height: 24
+        x: 144
+        y: 42
+        width: 31
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1612,12 +1732,12 @@ TextureImporter:
       name: Enemies & Bosses_77
       rect:
         serializedVersion: 2
-        x: 128
-        y: 170
-        width: 16
-        height: 16
+        x: 184
+        y: 17
+        width: 40
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1633,12 +1753,12 @@ TextureImporter:
       name: Enemies & Bosses_78
       rect:
         serializedVersion: 2
-        x: 144
-        y: 170
-        width: 16
-        height: 16
+        x: 240
+        y: 42
+        width: 30
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1654,12 +1774,12 @@ TextureImporter:
       name: Enemies & Bosses_83
       rect:
         serializedVersion: 2
-        x: 16
-        y: 138
-        width: 16
-        height: 24
+        x: 102
+        y: 15
+        width: 19
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1675,12 +1795,12 @@ TextureImporter:
       name: Enemies & Bosses_84
       rect:
         serializedVersion: 2
-        x: 48
-        y: 138
-        width: 16
-        height: 24
+        x: 136
+        y: 15
+        width: 34
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1693,547 +1813,463 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_85
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 138
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67535ec80aad372c0800000000000000
-      internalID: -4434960824936352394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_86
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 138
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0004c18fe300cb50800000000000000
-      internalID: 6611288580189061130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_87
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 138
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdea2417ffa745e60800000000000000
-      internalID: 7950114479751212764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_88
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 138
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e5dfe5fc9e3da320800000000000000
-      internalID: 2570779806160377313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_93
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 106
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5357353451d5b5ab0800000000000000
-      internalID: -5018315013869046475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_94
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 106
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: faf1352622a5d5510800000000000000
-      internalID: 1539485751355580335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_95
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 106
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b953bf990aac6780800000000000000
-      internalID: -8688382622793770576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_96
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 106
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45b71d29076892ee0800000000000000
-      internalID: -1285348400579904684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_97
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 106
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f2f6072922a05630800000000000000
-      internalID: 3913806373817086705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_98
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 106
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2713e320146fb7950800000000000000
-      internalID: 6448018050581934450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_127
+      name: Enemies & Bosses_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 42
-        width: 32
-        height: 40
+        y: 330
+        width: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70054b67aeec4270800000000000000
-      internalID: 8236220221380427898
+      spriteID: 241c9b8137bbf51b0800000000000000
+      internalID: -5665603703198334654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_129
+      name: Enemies & Bosses_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 42
-        width: 32
-        height: 40
+        x: 32
+        y: 330
+        width: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 748c4c4f0c6921330800000000000000
-      internalID: 3680169600999540807
+      spriteID: cdf73b017a538fcc0800000000000000
+      internalID: -3677130104092000292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_131
+      name: Enemies & Bosses_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de3bf9350bc292a0800000000000000
+      internalID: -6732095269657428271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 42
-        width: 32
-        height: 40
+        y: 330
+        width: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1553f5a4a94f748d0800000000000000
-      internalID: -2862050094660766383
+      spriteID: bbdbbf9ec8b163f80800000000000000
+      internalID: -8127278185508520517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_133
+      name: Enemies & Bosses_13
       rect:
         serializedVersion: 2
-        x: 144
-        y: 42
-        width: 32
-        height: 40
+        x: 128
+        y: 298
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdac527eba7d9b4e0800000000000000
-      internalID: -1965302629053117729
+      spriteID: ea8b60d7e406ab620800000000000000
+      internalID: 2790648809330751662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_135
+      name: Enemies & Bosses_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 298
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280beccb7cbf48c80800000000000000
+      internalID: -8321249376189108094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_15
       rect:
         serializedVersion: 2
         x: 192
-        y: 42
-        width: 32
-        height: 40
+        y: 298
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c752842160336a40800000000000000
-      internalID: 5360181175283505091
+      spriteID: 1624f6d11f1968600800000000000000
+      internalID: 470223675873772129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_137
+      name: Enemies & Bosses_16
       rect:
         serializedVersion: 2
-        x: 240
-        y: 42
-        width: 32
-        height: 40
+        x: 224
+        y: 298
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5328095c43d76cc40800000000000000
-      internalID: 5532246857877586485
+      spriteID: 8b75a371c0bf19d40800000000000000
+      internalID: 5589524641891375032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_139
+      name: Enemies & Bosses_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 266
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a73d3503540e70800000000000000
+      internalID: 9080474030652760351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3242a915874b0f0800000000000000
+      internalID: -1102123716925185090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 250
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa78b34ff3f85db0800000000000000
+      internalID: -4802820724912260366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 250
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0069cfadf02d040800000000000000
+      internalID: 4670813196751601886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 250
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a57fd45a44172c0800000000000000
+      internalID: -4435688681214879224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 138
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb18dbc88e486270800000000000000
+      internalID: 8243925467344149449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5292aeae0085885f0800000000000000
+      internalID: -754256176620099291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_70
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0e92aefb7ff18b0800000000000000
+      internalID: -5179148642813353741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_71
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 106
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e35b11b9611470800000000000000
+      internalID: 8363582192392333271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 109
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16bb2bf2d400a160800000000000000
+      internalID: 7034627922156303901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies & Bosses_79
       rect:
         serializedVersion: 2
         x: 288
         y: 42
-        width: 32
-        height: 40
+        width: 31
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4c6a57de7bbe1460800000000000000
-      internalID: 7214409806547414093
+      spriteID: 69766cce0ed327420800000000000000
+      internalID: 2626229568964814742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_141
+      name: Enemies & Bosses_80
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
+        y: 11
         width: 24
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8feddd3e7072da620800000000000000
-      internalID: 2786926659253427960
+      spriteID: 8b9b09716d4079850800000000000000
+      internalID: 6383576314385840568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_143
+      name: Enemies & Bosses_81
       rect:
         serializedVersion: 2
         x: 32
-        y: 10
-        width: 16
-        height: 24
+        y: 11
+        width: 24
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe18b847d8d72720800000000000000
-      internalID: 2821462110720499388
+      spriteID: 8f4199ccd37f28bd0800000000000000
+      internalID: -2629267387633298184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies & Bosses_145
+      name: Enemies & Bosses_82
       rect:
         serializedVersion: 2
         x: 64
-        y: 10
+        y: 11
         width: 24
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f657de7e638dac5d0800000000000000
-      internalID: -3041380868004416145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_147
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45b3402f6ed136820800000000000000
-      internalID: 2910202661951519572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_148
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6035d348f3217ae0800000000000000
-      internalID: -1553420847269203858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_149
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13220d90d780af020800000000000000
-      internalID: 2376221086519927345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_150
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0033bb40a690c1e90800000000000000
-      internalID: -7053752565418478848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_151
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eee0422a6c63e0300800000000000000
-      internalID: 220173658539429614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies & Bosses_152
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 485055f2ba1394a60800000000000000
-      internalID: 7658707252623508868
+      spriteID: 9378c5af283985920800000000000000
+      internalID: 2979293344260982585
       vertices: []
       indices: 
       edges: []

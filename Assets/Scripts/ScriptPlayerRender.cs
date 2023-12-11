@@ -25,6 +25,7 @@ public class ScriptPlayerRender : MonoBehaviour
     private void OnDisable()
     {
         _spriteRenderer.enabled = false;
+        _run.enabled = false;
     }
 
     private void LateUpdate()
