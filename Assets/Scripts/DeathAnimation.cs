@@ -42,13 +42,16 @@ public class DeathAnimation : MonoBehaviour
             collider.enabled = false;
         }
 
-        GetComponent<Rigidbody2D>().isKinematic = true; // ставим тело Марио в Кинематографичный режим, что бы он смог провалится под землю
-        GetComponent<PlayerMovement>().enabled = false; // отключаем скрипты
-        GetComponent<EntityMovement>().enabled = false;
-
-        // почему именнно такой код? потому что, этот код универсален для марио и врагов, а скрипты PlayerMovement и EntityMovement есть только у Марио, потому они будут отключатся у него
+        Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
         PlayerMovement playerMovement = GetComponent<PlayerMovement>();
         EntityMovement entityMovement = GetComponent<EntityMovement>();
+
+        if (rigidbody != null)
+        {
+            rigidbody.isKinematic = true;
+        }
+        // почему именнно такой код? потому что, этот код универсален для марио и врагов, а скрипты PlayerMovement и EntityMovement есть только у Марио, потому они будут отключатся у него
+
 
         if (playerMovement != null)
         {
@@ -95,8 +98,8 @@ public class DeathAnimation : MonoBehaviour
         while (elapsed < duration)
         {
             transform.position += velocity * Time.deltaTime;
-            //velocity.y += gravity * Time.deltaTime;
-            //elapsed += Time.deltaTime;
+            velocity.y += gravity * Time.deltaTime;
+            elapsed += Time.deltaTime;
             yield return null;
         }
     }

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public int stage { get; private set; } // получить уровень
     public int lives { get; private set; } // получить жизни
 
+    public int coins { get; private set; } // получить монеты
+
     private void Awake()
     {
         if (Instance != null)
@@ -52,15 +54,21 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         NewGame();
     }
 
     private void NewGame()
     {
         lives = 3;
+        coins = 0;
         LoadLevel(1, 1);
     }
 
+    public void GameOver()
+    {
+        NewGame();
+    }
     private void LoadLevel(int world, int stage)
     {
         this.world = world;
@@ -100,11 +108,20 @@ public class GameManager : MonoBehaviour
         Invoke(nameof(ResetLevel), delay);
     }
 
-    private void GameOver()
+    public void AddCoin()
     {
-        //
-        //SceneManager.LoadScene("GameOver");
-        Invoke(nameof(NewGame), 3f); // вызовится через 3 секунды
+        coins++;
+        if (coins == 100)
+        {
+            Addlife();
+            coins = 0;
+        }
     }
+
+    public void Addlife()
+    {
+        lives++;
+    }
+
 
 }

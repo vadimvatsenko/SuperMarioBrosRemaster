@@ -48,6 +48,6 @@ public class Player : MonoBehaviour
 
 
 
-        //GameManager.Instance.ResetLevel(3f); // с задержкой в 3сек
+        GameManager.Instance.ResetLevel(3f); // с задержкой в 3сек
     }
 }

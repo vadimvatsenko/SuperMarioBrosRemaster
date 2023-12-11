@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlockHits : MonoBehaviour
 {
+    [SerializeField] GameObject item;
     [SerializeField] Sprite emptyBlock;
     [SerializeField] private int maxHits = -1;
 
@@ -34,6 +35,10 @@ public class BlockHits : MonoBehaviour
         {
             _animator.enabled = false;
             spriteRenderer.sprite = emptyBlock;
+        }
+        if (item != null)
+        {
+            Instantiate(item, transform.position, Quaternion.identity); // используется для создания новых экземпляров объектов, Quaternion.identity означает, что новый объект будет создан с той же ориентацией, что и его префаб.
         }
         StartCoroutine(Animate());
     }
