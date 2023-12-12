@@ -2,15 +2,21 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AnimatedSprite
+    - BlockCoin
     - BlockHits
+    - BlockItem
     - DeathAnimation
     - DeathBarrier
     - EntityMovement
     - GameManager
     - Goomba
     - Koopa
+    - ParallaxBackground
+    - ParallaxCamera
+    - ParallaxLayer
     - Player
     - PlayerMovement
+    - PowerUp
     - ScriptPlayerRender
     - SideScrolling
     Unity.2D.Animation.Editor.dll:
@@ -44,8 +50,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -120,15 +128,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4486}
     - Class: 114
+      Script: {instanceID: 4736}
+    - Class: 114
       Script: {instanceID: 4818}
     - Class: 114
       Script: {instanceID: 4846}
     - Class: 114
       Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5364}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5402}
+    - Class: 114
+      Script: {instanceID: 5940}
+    - Class: 114
+      Script: {instanceID: 27928}
+    - Class: 114
+      Script: {instanceID: 180300}
+    - Class: 114
+      Script: {instanceID: 180308}
+    - Class: 114
+      Script: {instanceID: 240554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -938,7 +958,7 @@ ScriptsOnlyBuild:
     className: CinemachineGroupComposer
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 8adc73f4620c6ff1318e3875f2d50081
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ParallaxLayer
@@ -1088,6 +1108,12 @@ ScriptsOnlyBuild:
     className: TMP_PhoneNumberValidator
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlockCoin
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1184,12 +1210,6 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 61c854d2dc0cb061fab6cef3d4c1de34
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Robo
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1220,7 +1240,7 @@ ScriptsOnlyBuild:
     className: Benchmark01
   - hash:
       serializedVersion: 2
-      Hash: c3d3e936aa69bd444dec6717fc7c9fc7
+      Hash: 6e55aae18fc313e7d171a5ddcc294629
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1248,6 +1268,30 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlockItem
+  - hash:
+      serializedVersion: 2
+      Hash: b756f47b092f4d7c8fedf90f914cf997
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParallaxBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParallaxCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 284f5d9bdaed2e2fa4d300ea0adcd718
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUp
   platform: 19
   scenePathNames:
   - Assets/Scenes/1-1.unity

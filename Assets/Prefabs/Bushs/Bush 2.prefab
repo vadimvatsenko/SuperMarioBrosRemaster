@@ -93,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4685119179692491295, guid: 39563c4daaa679d42b019c309742e1f4, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4685119179692491295, guid: 39563c4daaa679d42b019c309742e1f4, type: 3}
       propertyPath: m_SortingLayerID
@@ -167,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4685119179692491295, guid: 39563c4daaa679d42b019c309742e1f4, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4685119179692491295, guid: 39563c4daaa679d42b019c309742e1f4, type: 3}
       propertyPath: m_SortingLayerID

@@ -18,7 +18,7 @@ public class EntityMovement : MonoBehaviour
     {
         enabled = true;
     }
-    private void OnBecameInVisible()
+    private void OnBecameInvisible()
     {
         enabled = false;
     }

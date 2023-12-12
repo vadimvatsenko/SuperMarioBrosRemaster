@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] AudioSource jumpSound;
     private new Camera camera;
     private new Rigidbody2D rigidbody;
     private Vector2 velocity; // переменная которая содержить x y кординаты нашего марио
@@ -99,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            jumpSound.Play();
             velocity.y = jumpForce;
             jumping = true;
         }

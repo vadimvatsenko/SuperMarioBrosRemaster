@@ -33,7 +33,11 @@ public class BlockHits : MonoBehaviour
         maxHits--;
         if (maxHits == 0)
         {
-            _animator.enabled = false;
+            if (_animator != null)
+            {
+                _animator.enabled = false;
+            }
+
             spriteRenderer.sprite = emptyBlock;
         }
         if (item != null)

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScriptPlayerRender : MonoBehaviour
 {
-    private SpriteRenderer _spriteRenderer; // переменная для рендера спрайтов
+    public SpriteRenderer _spriteRenderer { get; private set; } // переменная для рендера спрайтов
     private PlayerMovement _playerMovement; // переменная которая будет хранить в себе скрипт
 
     [SerializeField] private Sprite _idle;

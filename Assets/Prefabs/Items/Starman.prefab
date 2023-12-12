@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 8968675492440177461}
   - component: {fileID: 6093810265186202676}
   - component: {fileID: 2029298623079688379}
-  m_Layer: 0
+  - component: {fileID: 8797445929802619607}
+  - component: {fileID: 8763571229867949066}
+  - component: {fileID: 1118858893965794621}
+  m_Layer: 7
   m_Name: Starman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,3 +151,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8797445929802619607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74091400186068654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da94c916181ce0c4f8abd8c9a1e76b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8763571229867949066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74091400186068654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684d33e6864fb624db66589afbbc40cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  direction: {x: 1, y: 0}
+  gravity: -9.81
+--- !u!114 &1118858893965794621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74091400186068654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1455d3272be7040ac41342bc47af9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3

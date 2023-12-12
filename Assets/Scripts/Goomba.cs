@@ -12,7 +12,11 @@ public class Goomba : MonoBehaviour
         {
             Player player = collision.gameObject.GetComponent<Player>();
 
-            if (collision.transform.DotTest(transform, Vector2.down)) // это внешний класс, который проверяет, столкновение марио с головой гумбы
+            if (player.starpower)
+            {
+                Hit();
+            }
+            else if (collision.transform.DotTest(transform, Vector2.down)) // это внешний класс, который проверяет, столкновение марио с головой гумбы
             {
                 Flatten();
             }
