@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Koopa : MonoBehaviour
@@ -19,7 +17,7 @@ public class Koopa : MonoBehaviour
             {
                 Hit();
             }
-            else if (collision.transform.DotTest(transform, Vector2.down)) // это внешний класс, который проверяет, столкновение марио с головой гумбы
+            else if (collision.transform.DotTest(transform, Vector2.down))
             {
                 EnterShell();
             }
@@ -33,7 +31,7 @@ public class Koopa : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (_shelled && other.CompareTag("Player")) // если купа в панцире и столкнулся с Игроком
+        if (_shelled && other.CompareTag("Player"))
         {
             if (!_shellMoving)
             {
@@ -42,7 +40,7 @@ public class Koopa : MonoBehaviour
             }
             else
             {
-                Player player = other.GetComponent<Player>(); // в противном случае Игрок покучит урон
+                Player player = other.GetComponent<Player>();
                 if (player.starpower)
                 {
                     Hit();
@@ -60,14 +58,11 @@ public class Koopa : MonoBehaviour
         }
     }
     private void EnterShell()
-    { // метод который превращает Купа в панцирь
-
+    {
         _shelled = true;
-        GetComponent<EntityMovement>().enabled = false; // отключаем движения
-        GetComponent<AnimatedSprite>().enabled = false; // отключаем анимацию спрайтов
-        GetComponent<SpriteRenderer>().sprite = shellSprite; // получаем спрайт панциря
-
-
+        GetComponent<EntityMovement>().enabled = false;
+        GetComponent<AnimatedSprite>().enabled = false;
+        GetComponent<SpriteRenderer>().sprite = shellSprite;
     }
 
     private void PushShell(Vector2 direction)
@@ -78,7 +73,7 @@ public class Koopa : MonoBehaviour
         movement.direction = direction.normalized;
         movement.speed = shellSpeed;
         movement.enabled = true;
-        gameObject.layer = LayerMask.NameToLayer("Shell"); // когда купа превращается в панцир, мы пеняем слой на Shell 
+        gameObject.layer = LayerMask.NameToLayer("Shell");
     }
 
     private void Hit()

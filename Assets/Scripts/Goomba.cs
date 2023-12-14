@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Goomba : MonoBehaviour
@@ -16,7 +14,7 @@ public class Goomba : MonoBehaviour
             {
                 Hit();
             }
-            else if (collision.transform.DotTest(transform, Vector2.down)) // это внешний класс, который проверяет, столкновение марио с головой гумбы
+            else if (collision.transform.DotTest(transform, Vector2.down))
             {
                 Flatten();
             }
@@ -37,13 +35,13 @@ public class Goomba : MonoBehaviour
         }
     }
 
-    private void Flatten() // метод сплющивания Гумбы
+    private void Flatten()
     {
-        GetComponent<Collider2D>().enabled = false; // отключаем коллайдер
-        GetComponent<EntityMovement>().enabled = false; // отключаем движения
-        GetComponent<AnimatedSprite>().enabled = false; // отключаем анимацию спрайтов
-        GetComponent<SpriteRenderer>().sprite = flatSprite; // получаем сплющеный Гумба
-        Destroy(gameObject, 0.5f); // уничтожь гумбу через пол секунды
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<EntityMovement>().enabled = false;
+        GetComponent<AnimatedSprite>().enabled = false;
+        GetComponent<SpriteRenderer>().sprite = flatSprite;
+        Destroy(gameObject, 0.5f);
     }
 
     private void Hit()

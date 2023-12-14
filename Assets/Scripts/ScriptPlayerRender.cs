@@ -2,19 +2,18 @@ using UnityEngine;
 
 public class ScriptPlayerRender : MonoBehaviour
 {
-    public SpriteRenderer _spriteRenderer { get; private set; } // переменная для рендера спрайтов
-    private PlayerMovement _playerMovement; // переменная которая будет хранить в себе скрипт
+    public SpriteRenderer _spriteRenderer { get; private set; }
+    private PlayerMovement _playerMovement;
 
     [SerializeField] private Sprite _idle;
     [SerializeField] private Sprite _jump;
     [SerializeField] private Sprite _slide;
     [SerializeField] private AnimatedSprite _run;
 
-
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _playerMovement = GetComponentInParent<PlayerMovement>(); // получить компонент в родителе
+        _playerMovement = GetComponentInParent<PlayerMovement>();
     }
 
     private void OnEnable()

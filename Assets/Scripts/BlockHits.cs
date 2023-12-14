@@ -1,16 +1,13 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockHits : MonoBehaviour
 {
+    private Animator _animator;
     [SerializeField] GameObject item;
     [SerializeField] Sprite emptyBlock;
     [SerializeField] private int maxHits = -1;
-
-    private Animator _animator;
     private bool _animating;
-
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -42,7 +39,7 @@ public class BlockHits : MonoBehaviour
         }
         if (item != null)
         {
-            Instantiate(item, transform.position, Quaternion.identity); // используется для создания новых экземпляров объектов, Quaternion.identity означает, что новый объект будет создан с той же ориентацией, что и его префаб.
+            Instantiate(item, transform.position, Quaternion.identity);
         }
         StartCoroutine(Animate());
     }
@@ -68,7 +65,7 @@ public class BlockHits : MonoBehaviour
         {
             float t = elapsed / duration;
 
-            transform.localPosition = Vector3.Lerp(from, to, t); // (Lerp) между начальной (from) и конечной (to) позициями в соответствии с нормализованным временем t. Это плавное изменение позиции объекта.
+            transform.localPosition = Vector3.Lerp(from, to, t);
             elapsed += Time.deltaTime;
             yield return null;
         }

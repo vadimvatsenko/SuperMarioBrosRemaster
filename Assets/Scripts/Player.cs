@@ -6,10 +6,10 @@ public class Player : MonoBehaviour
 {
     [SerializeField] ScriptPlayerRender smallRenderer;
     [SerializeField] ScriptPlayerRender bigRenderer;
-    private ScriptPlayerRender _activeRenderer;
     [SerializeField] AudioSource deathSound;
     [SerializeField] AudioSource growSound;
     [SerializeField] AudioSource getLife;
+    private ScriptPlayerRender _activeRenderer;
     private DeathAnimation _deathAnimation;
     private CapsuleCollider2D _capsuleCollider;
 
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
         _deathAnimation.enabled = true;
         deathSound.Play();
 
-        GameManager.Instance.ResetLevel(3f); // с задержкой в 3сек
+        GameManager.Instance.ResetLevel(3f);
     }
 
     public void Grow()
