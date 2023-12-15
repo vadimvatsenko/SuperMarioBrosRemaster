@@ -24,10 +24,11 @@ public class BlockItem : MonoBehaviour
 
         spriteRenderer.enabled = true;
 
-        float elapsed = 0f;
-        float duration = 0.5f;
         Vector3 startPosition = transform.localPosition;
         Vector3 endPosition = transform.localPosition + Vector3.up;
+
+        float elapsed = 0f;
+        float duration = 0.5f;
 
         while (elapsed < duration)
         {

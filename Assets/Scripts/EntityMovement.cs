@@ -25,8 +25,8 @@ public class EntityMovement : MonoBehaviour
     }
     private void OnDisable()
     {
-        _rigitbody.velocity = Vector2.zero;
-        _rigitbody.Sleep();
+        _rigitbody.velocity = Vector2.zero; // Vector2.zero - x = 0f, y = 0f. или new Vector2(0f,0f)
+        _rigitbody.Sleep(); // усыпление объекта
     }
 
     private void FixedUpdate()

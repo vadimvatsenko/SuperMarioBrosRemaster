@@ -4,7 +4,9 @@ using UnityEngine;
 public class BlockHits : MonoBehaviour
 {
     private Animator _animator;
+    private AudioSource _brickBroke;
     [SerializeField] GameObject item;
+    [SerializeField] GameObject destroyBlock;
     [SerializeField] Sprite emptyBlock;
     [SerializeField] private int maxHits = -1;
     private bool _animating;
@@ -14,18 +16,21 @@ public class BlockHits : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Player player = collision.gameObject.GetComponent<Player>();
+
         if (!_animating && maxHits != 0 && collision.gameObject.CompareTag("Player"))
         {
             if (collision.transform.DotTest(transform, Vector2.up))
             {
-                Hit();
+                Hit(player);
             }
         }
     }
 
-    private void Hit()
+    private void Hit(Player player)
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        BoxCollider2D _boxCollider2d = GetComponent<BoxCollider2D>();
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>(); // доступ к SpriteRenderer, если он находится на элементе
         spriteRenderer.enabled = true;
         maxHits--;
         if (maxHits == 0)
@@ -41,7 +46,21 @@ public class BlockHits : MonoBehaviour
         {
             Instantiate(item, transform.position, Quaternion.identity);
         }
+
+        if (destroyBlock != null && player.big)
+        {
+            //_brickBroke.Play();
+            spriteRenderer.enabled = false;
+            //_boxCollider2d.enabled = false;
+            Debug.Log("Big Mario Hit Block");
+            Instantiate(destroyBlock, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+
+
         StartCoroutine(Animate());
+
+
     }
 
     private IEnumerator Animate()

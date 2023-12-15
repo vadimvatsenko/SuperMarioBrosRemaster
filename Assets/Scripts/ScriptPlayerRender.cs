@@ -8,6 +8,7 @@ public class ScriptPlayerRender : MonoBehaviour
     [SerializeField] private Sprite _idle;
     [SerializeField] private Sprite _jump;
     [SerializeField] private Sprite _slide;
+    [SerializeField] private Sprite _InFlag;
     [SerializeField] private AnimatedSprite _run;
 
     private void Awake()
@@ -42,5 +43,6 @@ public class ScriptPlayerRender : MonoBehaviour
         {
             _spriteRenderer.sprite = _idle;
         }
+
     }
 }

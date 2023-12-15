@@ -37,7 +37,7 @@ public class FlagPole : MonoBehaviour
 
     private IEnumerator MoveTo(Transform subject, Vector3 destination)
     {
-        while (Vector3.Distance(subject.position, destination) > 0.125f)
+        while (Vector3.Distance(subject.position, destination) > 0.125f) // Vector3.Distance - позволяет вычислить расстояние между двумя точками в трехмерном пространстве(x,y,z)
         {
             subject.position = Vector3.MoveTowards(subject.position, destination, speed * Time.deltaTime);
             yield return null;

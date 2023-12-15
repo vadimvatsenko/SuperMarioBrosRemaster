@@ -4,7 +4,7 @@ public class AnimatedSprite : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private int _frame;
     [SerializeField] private Sprite[] sprites;
-    [SerializeField] private float _framerate = 1f / 12f; // будет переключатся между шестью кадрами в секунду
+    [SerializeField] private float _framerate = 1f / 12f;
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
