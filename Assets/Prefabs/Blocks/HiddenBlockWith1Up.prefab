@@ -142,6 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490bb5ca4b292354da698a61abb534b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 7395390477015616025, guid: 5070279dcd8a23742a57d6f20d57def5, type: 3}
+  firstItem: {fileID: 7395390477015616025, guid: 5070279dcd8a23742a57d6f20d57def5, type: 3}
+  secondItem: {fileID: 0}
+  destroyBlock: {fileID: 0}
   emptyBlock: {fileID: 4256349083618711771, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
   maxHits: 1

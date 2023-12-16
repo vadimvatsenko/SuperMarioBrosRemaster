@@ -5,9 +5,12 @@ public class BlockHits : MonoBehaviour
 {
     private Animator _animator;
     private AudioSource _brickBroke;
-    [SerializeField] GameObject item;
+    [SerializeField] GameObject firstItem;
+    [SerializeField] GameObject secondItem;
     [SerializeField] GameObject destroyBlock;
+
     [SerializeField] Sprite emptyBlock;
+
     [SerializeField] private int maxHits = -1;
     private bool _animating;
     private void Awake()
@@ -29,41 +32,46 @@ public class BlockHits : MonoBehaviour
 
     private void Hit(Player player)
     {
-        BoxCollider2D _boxCollider2d = GetComponent<BoxCollider2D>();
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>(); // доступ к SpriteRenderer, если он находится на элементе
-        spriteRenderer.enabled = true;
-        maxHits--;
-        if (maxHits == 0)
+
+        if (player.big && destroyBlock != null && !firstItem)
         {
-            if (_animator != null)
+            spriteRenderer.enabled = false;
+            StartCoroutine(Animate(player));
+            Instantiate(destroyBlock, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            spriteRenderer.enabled = true;
+            maxHits--;
+
+            if (maxHits == 0)
             {
-                _animator.enabled = false;
+                spriteRenderer.sprite = emptyBlock;
+
+                if (_animator != null)
+                {
+                    _animator.enabled = false;
+                }
+
             }
 
-            spriteRenderer.sprite = emptyBlock;
+            if (secondItem && player.big)
+            {
+                Instantiate(secondItem, transform.position, Quaternion.identity);
+            }
+            else if (!secondItem && firstItem && player.big || player.small)
+            {
+                Instantiate(firstItem, transform.position, Quaternion.identity); // экземпляр который создает блок из префаба
+            }
+
+            
+            StartCoroutine(Animate(player));
         }
-        if (item != null)
-        {
-            Instantiate(item, transform.position, Quaternion.identity);
-        }
-
-        if (destroyBlock != null && player.big)
-        {
-            //_brickBroke.Play();
-            spriteRenderer.enabled = false;
-            //_boxCollider2d.enabled = false;
-            Debug.Log("Big Mario Hit Block");
-            Instantiate(destroyBlock, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-        }
-
-
-        StartCoroutine(Animate());
-
 
     }
 
-    private IEnumerator Animate()
+    private IEnumerator Animate(Player player)
     {
         _animating = true;
         Vector3 restingPosition = transform.localPosition;
@@ -73,6 +81,10 @@ public class BlockHits : MonoBehaviour
         yield return Move(animatedPosition, restingPosition);
 
         _animating = false;
+        if (player.big && destroyBlock != null && !firstItem)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private IEnumerator Move(Vector3 from, Vector3 to)

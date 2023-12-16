@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] ScriptPlayerRender smallRenderer;
     [SerializeField] ScriptPlayerRender bigRenderer;
+    //[SerializeField] ScriptPlayerRender powerMario;
     [SerializeField] AudioSource deathSound;
     [SerializeField] AudioSource growSound;
     [SerializeField] AudioSource getLife;
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour
     public bool small => smallRenderer.enabled;
     public bool dead => _deathAnimation.enabled;
     public bool starpower { get; private set; }
+
 
     private void Awake()
     {

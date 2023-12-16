@@ -8,6 +8,7 @@ public class PowerUp : MonoBehaviour
         ExtraLife,
         MagicMushroom,
         Starpower,
+        FlowerPower,
     }
 
     public Type type;
@@ -35,6 +36,8 @@ public class PowerUp : MonoBehaviour
             case Type.Starpower:
                 player.GetComponent<Player>().Starpower(10f);
                 break;
+
+
         }
         Destroy(gameObject);
     }

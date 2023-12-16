@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3219717991387777838}
   - component: {fileID: 7944766432687844101}
   - component: {fileID: 1344739484}
+  - component: {fileID: -7834336443114724168}
   m_Layer: 7
   m_Name: BlockCoin
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 908403761
   m_SortingLayer: 5
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: -4378505401409038338, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,3 +96,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de16039708c81b34c887c8540bd6fb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7834336443114724168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219717991387777837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4538bb86b8c7479c240efa5f63188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -4378505401409038338, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: 6656131421378916845, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: 5085058664239270553, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: -7899064199776288378, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: 539206260459888591, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: -4378505401409038338, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  _framerate: 0.083333336
