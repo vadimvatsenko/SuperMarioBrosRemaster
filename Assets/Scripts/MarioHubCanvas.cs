@@ -10,7 +10,7 @@ public class MarioHubCanvas : MonoBehaviour
 
     private void Start()
     {
-        _marioLives.GetComponent<TextMeshProUGUI>().text = " " + "x" + " " + GameManager.Instance.lives.ToString();
+
         _stageAndLevel.GetComponent<TextMeshProUGUI>().text = GameManager.Instance.world.ToString() + "-" + GameManager.Instance.stage.ToString();
     }
 
@@ -18,5 +18,6 @@ public class MarioHubCanvas : MonoBehaviour
     {
         _levelTime.GetComponent<TextMeshProUGUI>().text = GameManager.Instance._levelTime.ToString();
         _coins.GetComponent<TextMeshProUGUI>().text = " " + "x" + " " + GameManager.Instance.coins.ToString();
+        _marioLives.GetComponent<TextMeshProUGUI>().text = " " + "x" + " " + GameManager.Instance.lives.ToString();
     }
 }

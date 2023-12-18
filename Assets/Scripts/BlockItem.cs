@@ -15,7 +15,11 @@ public class BlockItem : MonoBehaviour
         BoxCollider2D triggerCollider = GetComponent<BoxCollider2D>();
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 
-        rigidbody.isKinematic = true;
+        if (rigidbody != null)
+        {
+            rigidbody.isKinematic = true;
+        }
+
         phisicsCollider.enabled = false;
         triggerCollider.enabled = false;
         spriteRenderer.enabled = false;
@@ -40,7 +44,11 @@ public class BlockItem : MonoBehaviour
         }
 
         transform.localPosition = endPosition;
-        rigidbody.isKinematic = false;
+        if (rigidbody != null)
+        {
+            rigidbody.isKinematic = false;
+        }
+
         phisicsCollider.enabled = true;
         triggerCollider.enabled = true;
     }

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int stage { get; private set; }
     public int lives { get; private set; }
     public int coins { get; private set; }
+    public int score { get; private set; }
     private float time;
     public int _levelTime { get; private set; }
 
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
     {
         lives = 3;
         coins = 0;
+        score = 0;
         time = 300;
         LoadLevel(1, 1);
     }

@@ -25,6 +25,10 @@ public class Goomba : MonoBehaviour
 
             }
         }
+        if (collision.gameObject.CompareTag("FireBall"))
+        {
+            Hit();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

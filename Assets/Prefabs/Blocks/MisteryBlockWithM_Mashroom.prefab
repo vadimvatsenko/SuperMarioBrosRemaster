@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 459890798137472432}
   - component: {fileID: 459890798137472433}
-  - component: {fileID: 459890798137472446}
   - component: {fileID: 4933088143475809177}
   - component: {fileID: 3291306417918488734}
+  - component: {fileID: 8315234936185393078}
   m_Layer: 0
   m_Name: MisteryBlockWithM_Mashroom
   m_TagString: Untagged
@@ -85,25 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &459890798137472446
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459890798137472447}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: da6b513ffb7f583458196238b5d2eb9a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &4933088143475809177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -143,7 +124,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstItem: {fileID: 8699815201731603126, guid: 765df77d61424194ca95b9050a27a28f, type: 3}
-  secondItem: {fileID: 0}
+  secondItem: {fileID: 7545348367689337285, guid: e8a98f907e2530b488e9e5e1bf527775, type: 3}
   destroyBlock: {fileID: 0}
   emptyBlock: {fileID: 4256349083618711771, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
   maxHits: 1
+--- !u!114 &8315234936185393078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459890798137472447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4538bb86b8c7479c240efa5f63188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 5904045658806639212, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: 2909691181606501540, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: -6170029529649794987, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  _framerate: 0.3333

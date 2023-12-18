@@ -45,4 +45,9 @@ public class ScriptPlayerRender : MonoBehaviour
         }
 
     }
+
+    public void SetInFlagSprite()
+    {
+        _spriteRenderer.sprite = _InFlag;
+    }
 }

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4969704908119663514}
   - component: {fileID: 4969704908119663515}
-  - component: {fileID: 4969704908119663508}
   - component: {fileID: 496510802213834163}
   - component: {fileID: 8015067898327738036}
+  - component: {fileID: -7561773863314708450}
   m_Layer: 0
   m_Name: MisteryBlockWithCoin
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4969704908119663509}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -85,25 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4969704908119663508
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4969704908119663509}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: da6b513ffb7f583458196238b5d2eb9a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &496510802213834163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -147,3 +128,20 @@ MonoBehaviour:
   destroyBlock: {fileID: 0}
   emptyBlock: {fileID: 4256349083618711771, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
   maxHits: 1
+--- !u!114 &-7561773863314708450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4969704908119663509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4538bb86b8c7479c240efa5f63188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 5904045658806639212, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: 2909691181606501540, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  - {fileID: -6170029529649794987, guid: e341b90cd0b014845b7f28875866ce15, type: 3}
+  _framerate: 0.3333

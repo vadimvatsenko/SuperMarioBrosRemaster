@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2699777255981997471}
   - component: {fileID: 2699777255981997473}
-  - component: {fileID: 2699777255981997470}
+  - component: {fileID: 5229632994993823440}
   m_Layer: 0
   m_Name: Bush Right
   m_TagString: Untagged
@@ -83,22 +83,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2699777255981997470
-Animator:
-  serializedVersion: 3
+--- !u!114 &5229632994993823440
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2699777255981997468}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9dee1af6e86a3d94ca985bb3d09c9d7b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4538bb86b8c7479c240efa5f63188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -3804009760250672530, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: -567192428998753773, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: -7579870237689297512, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: 8232456365424049263, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  _framerate: 0.25

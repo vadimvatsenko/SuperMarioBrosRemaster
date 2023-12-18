@@ -21,11 +21,13 @@ public class FlagPole : MonoBehaviour
     {
         player.GetComponent<PlayerMovement>().enabled = false;
 
+        ScriptPlayerRender scriptPlayerRender = player.GetComponent<ScriptPlayerRender>();
+
+
         yield return MoveTo(player, poleBotton.position);
         yield return MoveTo(player, player.position + Vector3.right);
         yield return MoveTo(player, player.position + Vector3.right + Vector3.down);
         yield return MoveTo(player, castle.position);
-
         player.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(2f);

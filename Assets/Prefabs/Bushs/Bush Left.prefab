@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2349359524145859133}
   - component: {fileID: 2349359524145859131}
-  - component: {fileID: 2349359524145859132}
+  - component: {fileID: -8482164822856660932}
   m_Layer: 0
   m_Name: Bush Left
   m_TagString: Untagged
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1007449859
   m_SortingLayer: 6
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -194510117870590286, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -83,22 +83,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2349359524145859132
-Animator:
-  serializedVersion: 3
+--- !u!114 &-8482164822856660932
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2349359524145859134}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 43f8dd1a7f20a0c43997b8acf5704b17, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4538bb86b8c7479c240efa5f63188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -4851699357509049033, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: -276511609110317989, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: -7000249789770915874, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  - {fileID: -194510117870590286, guid: e99b2a30d1eca7a4e976532cd6be1b0e, type: 3}
+  _framerate: 0.25

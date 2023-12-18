@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] ScriptPlayerRender smallRenderer;
     [SerializeField] ScriptPlayerRender bigRenderer;
-    //[SerializeField] ScriptPlayerRender powerMario;
+    [SerializeField] ScriptPlayerRender superMarioRender;
     [SerializeField] AudioSource deathSound;
     [SerializeField] AudioSource growSound;
     [SerializeField] AudioSource getLife;
@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     public bool big => bigRenderer.enabled;
     public bool small => smallRenderer.enabled;
+    public bool super => superMarioRender.enabled;
     public bool dead => _deathAnimation.enabled;
     public bool starpower { get; private set; }
 
@@ -32,7 +33,7 @@ public class Player : MonoBehaviour
 
         if (!starpower && !dead)
         {
-            if (big)
+            if (big || super)
             {
                 Shrink();
             }
@@ -49,6 +50,7 @@ public class Player : MonoBehaviour
 
         smallRenderer.enabled = false;
         bigRenderer.enabled = false;
+        superMarioRender.enabled = false;
         _deathAnimation.enabled = true;
         deathSound.Play();
 
@@ -60,10 +62,22 @@ public class Player : MonoBehaviour
         growSound.Play();
         smallRenderer.enabled = false;
         bigRenderer.enabled = true;
+        superMarioRender.enabled = false;
         _activeRenderer = bigRenderer;
 
         _capsuleCollider.size = new Vector2(1f, 2f);
         _capsuleCollider.offset = new Vector2(0f, 0.5f);
+
+        StartCoroutine(ScaleAnimation());
+    }
+
+    public void SuperMarioRender()
+    {
+        growSound.Play();
+        smallRenderer.enabled = false;
+        bigRenderer.enabled = false;
+        superMarioRender.enabled = true;
+        _activeRenderer = superMarioRender;
 
         StartCoroutine(ScaleAnimation());
     }
@@ -73,6 +87,7 @@ public class Player : MonoBehaviour
         growSound.Play();
         smallRenderer.enabled = true;
         bigRenderer.enabled = false;
+        superMarioRender.enabled = false;
         _activeRenderer = smallRenderer;
 
         _capsuleCollider.size = new Vector2(1f, 1f);
@@ -94,6 +109,7 @@ public class Player : MonoBehaviour
             {
                 smallRenderer.enabled = !smallRenderer.enabled;
                 bigRenderer.enabled = !bigRenderer.enabled;
+                //superMarioRender.enabled = !superMarioRender.enabled;
             }
 
             yield return null;
@@ -106,12 +122,15 @@ public class Player : MonoBehaviour
 
     public void Starpower(float duration)
     {
+        PlayerMovement _playerMovement = GetComponent<PlayerMovement>();
+        _playerMovement.moveSpeed = 12f;
         StartCoroutine(StarPowerAnimation(duration));
 
     }
 
     private IEnumerator StarPowerAnimation(float duration)
     {
+        PlayerMovement _playerMovement = GetComponent<PlayerMovement>();
         starpower = true;
 
         float elapsed = 0f;
@@ -129,5 +148,7 @@ public class Player : MonoBehaviour
 
         _activeRenderer._spriteRenderer.color = Color.white;
         starpower = false;
+        _playerMovement.moveSpeed = 8f;
+
     }
 }

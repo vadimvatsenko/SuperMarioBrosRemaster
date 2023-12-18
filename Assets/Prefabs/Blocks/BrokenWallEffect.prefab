@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviationX: 0.1
+  _destroyBlockSound: {fileID: 0}
 --- !u!1 &3170154443979155284
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviationX: -0.1
+  _destroyBlockSound: {fileID: 0}
 --- !u!1 &3170154444931515888
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviationX: -0.05
+  _destroyBlockSound: {fileID: 0}
 --- !u!1 &3170154445005242840
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviationX: 0.05
+  _destroyBlockSound: {fileID: 0}
 --- !u!1 &3170154445335373119
 GameObject:
   m_ObjectHideFlags: 0

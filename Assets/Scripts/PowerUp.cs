@@ -8,7 +8,7 @@ public class PowerUp : MonoBehaviour
         ExtraLife,
         MagicMushroom,
         Starpower,
-        FlowerPower,
+        SuperPower,
     }
 
     public Type type;
@@ -35,6 +35,9 @@ public class PowerUp : MonoBehaviour
                 break;
             case Type.Starpower:
                 player.GetComponent<Player>().Starpower(10f);
+                break;
+            case Type.SuperPower:
+                player.GetComponent<Player>().SuperMarioRender();
                 break;
 
 

@@ -3,25 +3,26 @@ using UnityEngine;
 
 public class BlockHits : MonoBehaviour
 {
-    private Animator _animator;
-    private AudioSource _brickBroke;
+    [SerializeField] AudioSource _brickBroke;
     [SerializeField] GameObject firstItem;
     [SerializeField] GameObject secondItem;
     [SerializeField] GameObject destroyBlock;
-
     [SerializeField] Sprite emptyBlock;
-
     [SerializeField] private int maxHits = -1;
-    private bool _animating;
+    private AnimatedSprite _animatedSprite;
+    private SpriteRenderer _spriteRenderer;
+
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _animatedSprite = GetComponent<AnimatedSprite>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Player player = collision.gameObject.GetComponent<Player>();
 
-        if (!_animating && maxHits != 0 && collision.gameObject.CompareTag("Player"))
+        if (maxHits != 0 && collision.gameObject.CompareTag("Player"))
         {
             if (collision.transform.DotTest(transform, Vector2.up))
             {
@@ -32,56 +33,77 @@ public class BlockHits : MonoBehaviour
 
     private void Hit(Player player)
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>(); // доступ к SpriteRenderer, если он находится на элементе
-
-        if (player.big && destroyBlock != null && !firstItem)
+        maxHits--;
+        if (player.small)
         {
-            spriteRenderer.enabled = false;
-            StartCoroutine(Animate(player));
-            Instantiate(destroyBlock, transform.position, Quaternion.identity);
-        }
-        else
-        {
-            spriteRenderer.enabled = true;
-            maxHits--;
-
-            if (maxHits == 0)
+            if (maxHits < 0 && !firstItem && !secondItem)
             {
-                spriteRenderer.sprite = emptyBlock;
-
-                if (_animator != null)
+                StartCoroutine(Animate(player));
+            }
+            else if (maxHits > 0 && firstItem)
+            {
+                StartCoroutine(Animate(player));
+                Instantiate(firstItem, transform.position, Quaternion.identity);
+            }
+            else if (maxHits == 0)
+            {
+                StartCoroutine(Animate(player));
+                Instantiate(firstItem, transform.position, Quaternion.identity);
+                if (_animatedSprite)
                 {
-                    _animator.enabled = false;
+                    _animatedSprite.enabled = false;
+                }
+                _spriteRenderer.enabled = true;
+                _spriteRenderer.sprite = emptyBlock;
+
+            }
+        }
+        if (player.big || player.super)
+        {
+            Debug.Log(player.super);
+            if (maxHits < 0 && !firstItem && !secondItem)
+            {
+                _brickBroke.Play();
+                StartCoroutine(Animate(player));
+                Instantiate(destroyBlock, transform.position, Quaternion.identity);
+                _spriteRenderer.enabled = false;
+            }
+            else if (maxHits > 0 && firstItem)
+            {
+                StartCoroutine(Animate(player));
+                Instantiate(firstItem, transform.position, Quaternion.identity);
+            }
+            else if (maxHits == 0)
+            {
+                StartCoroutine(Animate(player));
+                if (firstItem && !secondItem)
+                {
+                    Instantiate(firstItem, transform.position, Quaternion.identity);
+                }
+                if (secondItem)
+                {
+                    Instantiate(secondItem, transform.position, Quaternion.identity);
                 }
 
+                if (_animatedSprite)
+                {
+                    _animatedSprite.enabled = false;
+                }
+                _spriteRenderer.enabled = true;
+                _spriteRenderer.sprite = emptyBlock;
             }
-
-            if (secondItem && player.big)
-            {
-                Instantiate(secondItem, transform.position, Quaternion.identity);
-            }
-            else if (!secondItem && firstItem && player.big || player.small)
-            {
-                Instantiate(firstItem, transform.position, Quaternion.identity); // экземпляр который создает блок из префаба
-            }
-
-            
-            StartCoroutine(Animate(player));
         }
-
     }
 
     private IEnumerator Animate(Player player)
     {
-        _animating = true;
         Vector3 restingPosition = transform.localPosition;
         Vector3 animatedPosition = restingPosition + Vector3.up * 0.5f;
 
         yield return Move(restingPosition, animatedPosition);
         yield return Move(animatedPosition, restingPosition);
 
-        _animating = false;
-        if (player.big && destroyBlock != null && !firstItem)
+        if ((player.big || player.super) && maxHits < 0 && !firstItem && !secondItem)
         {
             Destroy(gameObject);
         }
