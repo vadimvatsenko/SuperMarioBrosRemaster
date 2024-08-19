@@ -258,7 +258,7 @@ TextureImporter:
       213: -8689956660524755540
     second: Mario_84
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -275,10 +275,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -317,6 +319,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -328,6 +332,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -340,6 +345,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -352,6 +358,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2152,9 +2172,94 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mario_0: 4120955195336003847
+      Mario_1: -8340684894021347341
+      Mario_10: -5188551814952082331
+      Mario_11: -3289200234992376777
+      Mario_12: 5740100314215327209
+      Mario_13: 1109687603413664886
+      Mario_14: 4261312395823990064
+      Mario_15: -4011714841779071252
+      Mario_16: -7940106292621141200
+      Mario_17: -4909874281342067639
+      Mario_18: 894007194499801496
+      Mario_19: -8510317226010047069
+      Mario_2: 8029536824772267597
+      Mario_20: 6642691414592863018
+      Mario_21: 1488931247178026643
+      Mario_22: -7064194740399109380
+      Mario_23: -6618893050237331622
+      Mario_24: -4044679514340094317
+      Mario_25: 5366396704099230407
+      Mario_26: -5502867548003334652
+      Mario_27: 7997234602399742494
+      Mario_28: -8506341012516644137
+      Mario_29: -1183818458030727065
+      Mario_3: -1516733375807340374
+      Mario_30: -2576767851460239226
+      Mario_31: -8007405914943326720
+      Mario_32: -897317605072193822
+      Mario_33: 7338185634055069252
+      Mario_34: 6893772646347221788
+      Mario_35: -4830012386604051497
+      Mario_36: -6975385651083733395
+      Mario_37: -8134681174400669681
+      Mario_38: -604870751621487919
+      Mario_39: -3196848817124712831
+      Mario_4: -1013760585851560218
+      Mario_40: 7778498088954422986
+      Mario_41: -4691101644008559910
+      Mario_42: -7795872928830923701
+      Mario_43: 2204105434079626427
+      Mario_44: -1057286518017922912
+      Mario_45: -4306901211097062244
+      Mario_46: 4136982768466104171
+      Mario_47: -2265890569305025320
+      Mario_48: -4221109763670124184
+      Mario_49: -7118316824938594995
+      Mario_5: -5383407867553921227
+      Mario_50: -5727382361142139055
+      Mario_51: 2354186190378222048
+      Mario_52: 2561390661177432862
+      Mario_53: 6795679195467224265
+      Mario_54: -4385853093878405250
+      Mario_55: -4135835567857530283
+      Mario_56: 8059327356361538171
+      Mario_57: 1347902984623588709
+      Mario_58: 5249611804763041453
+      Mario_59: 2006398174324315894
+      Mario_6: 7301754939111470067
+      Mario_60: -4935049887083160909
+      Mario_61: -6128527215277702658
+      Mario_62: 8980151206816843169
+      Mario_63: -2245897479634411694
+      Mario_64: -7838247337003907137
+      Mario_65: 6275681929754916002
+      Mario_66: -4382571596424465656
+      Mario_67: 7593638814485025722
+      Mario_68: -9197299674536290204
+      Mario_69: 1581924863861032774
+      Mario_7: 3366035027270568996
+      Mario_70: 4525463878055098198
+      Mario_71: -647135195697636716
+      Mario_72: -5967886162569886162
+      Mario_73: 2531992427909349456
+      Mario_74: -3563252117750826619
+      Mario_75: 6360814468527587004
+      Mario_76: 2125262759371717194
+      Mario_77: -1118565358825207364
+      Mario_78: -8788907276931331090
+      Mario_79: 8481307027863504941
+      Mario_8: -4300721584263116383
+      Mario_80: 6161002248909309176
+      Mario_81: -2164202105644286025
+      Mario_82: -5061635469940008070
+      Mario_83: 8103631383348488947
+      Mario_84: -8689956660524755540
+      Mario_9: -1281953291003957293
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

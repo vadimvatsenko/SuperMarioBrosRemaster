@@ -465,7 +465,7 @@ TextureImporter:
       213: -6025967112351299903
     second: Enemies & Bosses v3_153
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -482,10 +482,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -524,6 +526,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -535,6 +539,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -547,6 +552,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -559,6 +565,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3766,9 +3786,161 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Enemies & Bosses v3_0: 4006137562523019843
+      Enemies & Bosses v3_1: 7999790734360301036
+      Enemies & Bosses v3_10: -7051672428229014196
+      Enemies & Bosses v3_100: -4844918922755922448
+      Enemies & Bosses v3_101: 3134522183472802467
+      Enemies & Bosses v3_102: 7446331137570268521
+      Enemies & Bosses v3_103: -3095233803846867245
+      Enemies & Bosses v3_104: 5162688496339013782
+      Enemies & Bosses v3_105: 3390115633636482381
+      Enemies & Bosses v3_106: 7696897701827000189
+      Enemies & Bosses v3_107: 4243369812842923529
+      Enemies & Bosses v3_108: 8746648030132880095
+      Enemies & Bosses v3_109: -2244304570507880167
+      Enemies & Bosses v3_11: -198675752605901334
+      Enemies & Bosses v3_110: 5824712074529363216
+      Enemies & Bosses v3_111: 1110737686958513139
+      Enemies & Bosses v3_112: 7715234632490394870
+      Enemies & Bosses v3_113: 2683752557002469160
+      Enemies & Bosses v3_114: 6919551206543651785
+      Enemies & Bosses v3_115: -5732813758964557339
+      Enemies & Bosses v3_116: 3465745939143585518
+      Enemies & Bosses v3_117: 593248848148477631
+      Enemies & Bosses v3_118: 4468144966115983114
+      Enemies & Bosses v3_119: -6653200691969095643
+      Enemies & Bosses v3_12: 2947395205095207567
+      Enemies & Bosses v3_120: -8828951490998227286
+      Enemies & Bosses v3_121: 3686488392142870843
+      Enemies & Bosses v3_122: 8842576393035537644
+      Enemies & Bosses v3_123: 1943949505473964701
+      Enemies & Bosses v3_124: -1969767044743338391
+      Enemies & Bosses v3_125: 1010252885673234991
+      Enemies & Bosses v3_126: -7871036750367108404
+      Enemies & Bosses v3_127: -6351036777756132404
+      Enemies & Bosses v3_128: -4719776905720117631
+      Enemies & Bosses v3_129: -3952648780316262118
+      Enemies & Bosses v3_13: 139562196952685755
+      Enemies & Bosses v3_130: 4868940761172023910
+      Enemies & Bosses v3_131: -7673400834205410303
+      Enemies & Bosses v3_132: -1930136430075783733
+      Enemies & Bosses v3_133: -584003354607852469
+      Enemies & Bosses v3_134: -7060822244926329227
+      Enemies & Bosses v3_135: 4043092218792094460
+      Enemies & Bosses v3_136: 7809562501340034149
+      Enemies & Bosses v3_137: -3140051518272192811
+      Enemies & Bosses v3_138: 6264376322958136304
+      Enemies & Bosses v3_139: -3140602187058329283
+      Enemies & Bosses v3_14: 887170657237689082
+      Enemies & Bosses v3_140: -3108733765884250876
+      Enemies & Bosses v3_141: -4264870339617737373
+      Enemies & Bosses v3_142: -3983664540637165928
+      Enemies & Bosses v3_143: -7472585995047594145
+      Enemies & Bosses v3_144: 1993586056212024299
+      Enemies & Bosses v3_145: 8793288396299422002
+      Enemies & Bosses v3_146: 2651304938847980484
+      Enemies & Bosses v3_147: -5252845005556633490
+      Enemies & Bosses v3_148: -1351520538881887158
+      Enemies & Bosses v3_149: -5810014503580248332
+      Enemies & Bosses v3_15: -7813119200514804485
+      Enemies & Bosses v3_150: -3902400457210620790
+      Enemies & Bosses v3_151: -2844913515195525759
+      Enemies & Bosses v3_16: -2895192057032338498
+      Enemies & Bosses v3_17: -7930831886894411236
+      Enemies & Bosses v3_18: 3358244665847470878
+      Enemies & Bosses v3_19: 4488462217954990610
+      Enemies & Bosses v3_2: 6813507148725244390
+      Enemies & Bosses v3_20: 6006089776373039845
+      Enemies & Bosses v3_21: -515643317636149194
+      Enemies & Bosses v3_22: -780972401895136954
+      Enemies & Bosses v3_23: 4538063444567279770
+      Enemies & Bosses v3_24: -828988787245151104
+      Enemies & Bosses v3_25: -4402741491433248133
+      Enemies & Bosses v3_26: 6880232101921369437
+      Enemies & Bosses v3_27: -7425966307719698352
+      Enemies & Bosses v3_28: 6586811889040131748
+      Enemies & Bosses v3_29: 379402845578246632
+      Enemies & Bosses v3_3: 3693342012683253884
+      Enemies & Bosses v3_30: 4039603718186569979
+      Enemies & Bosses v3_31: 1903853526279943696
+      Enemies & Bosses v3_32: 3798387386434175525
+      Enemies & Bosses v3_33: -5278974789029219709
+      Enemies & Bosses v3_34: 2893870153036373463
+      Enemies & Bosses v3_35: 629920159287635237
+      Enemies & Bosses v3_36: -5909083087197151417
+      Enemies & Bosses v3_37: -2974087578146093884
+      Enemies & Bosses v3_38: -708116849869996951
+      Enemies & Bosses v3_39: -4610354515355143769
+      Enemies & Bosses v3_4: -1264596417158980509
+      Enemies & Bosses v3_40: -4920568109609816691
+      Enemies & Bosses v3_41: 504700395673363717
+      Enemies & Bosses v3_42: 3825008120399720531
+      Enemies & Bosses v3_43: 8379350885319923202
+      Enemies & Bosses v3_44: -8524190636678759361
+      Enemies & Bosses v3_45: 8885462564912475469
+      Enemies & Bosses v3_46: -5673848380835784035
+      Enemies & Bosses v3_47: 1439524346279353117
+      Enemies & Bosses v3_48: 82160230659806088
+      Enemies & Bosses v3_49: -3140377261157717943
+      Enemies & Bosses v3_5: 139052130276365917
+      Enemies & Bosses v3_50: -4356384489124045062
+      Enemies & Bosses v3_51: -8161852685938398779
+      Enemies & Bosses v3_52: 1893480381513767602
+      Enemies & Bosses v3_53: 8584213356467020730
+      Enemies & Bosses v3_54: 4994667956100847402
+      Enemies & Bosses v3_55: 7925594369975599351
+      Enemies & Bosses v3_56: 2296110667674748616
+      Enemies & Bosses v3_57: -2416708460167971626
+      Enemies & Bosses v3_58: 5652981536946623838
+      Enemies & Bosses v3_59: 2100683649858534331
+      Enemies & Bosses v3_6: 4118216110659053071
+      Enemies & Bosses v3_60: 4128407627486256935
+      Enemies & Bosses v3_61: -8489277456175917828
+      Enemies & Bosses v3_62: -4959978674863970605
+      Enemies & Bosses v3_63: 5897985696462097399
+      Enemies & Bosses v3_64: -4388932595787024593
+      Enemies & Bosses v3_65: 4525940702863680817
+      Enemies & Bosses v3_66: -605538612401822350
+      Enemies & Bosses v3_67: -8014804569962921293
+      Enemies & Bosses v3_68: 6501642629294795671
+      Enemies & Bosses v3_69: -8872201506229161646
+      Enemies & Bosses v3_7: 8620019059551671179
+      Enemies & Bosses v3_70: 1217588480102773905
+      Enemies & Bosses v3_71: 8311715373295063362
+      Enemies & Bosses v3_72: -3200681660580529977
+      Enemies & Bosses v3_73: 4361285931279616960
+      Enemies & Bosses v3_74: 2972402196137886058
+      Enemies & Bosses v3_75: 4367383454595314907
+      Enemies & Bosses v3_76: 7924734437925050329
+      Enemies & Bosses v3_77: -4229851140318746069
+      Enemies & Bosses v3_78: 1075122665926327988
+      Enemies & Bosses v3_79: 7792437249575940915
+      Enemies & Bosses v3_8: 5587461270059159863
+      Enemies & Bosses v3_80: 2690695930408389257
+      Enemies & Bosses v3_81: 8329066135977651908
+      Enemies & Bosses v3_82: 1204633683325833591
+      Enemies & Bosses v3_83: 3153074795235353787
+      Enemies & Bosses v3_84: 7888155893466565563
+      Enemies & Bosses v3_85: -220010984432566958
+      Enemies & Bosses v3_86: -4909937636151957670
+      Enemies & Bosses v3_87: 283550924124444792
+      Enemies & Bosses v3_88: -1960137878950828694
+      Enemies & Bosses v3_89: -1059662612552830039
+      Enemies & Bosses v3_9: 5715178147941047574
+      Enemies & Bosses v3_90: 5897756275967415550
+      Enemies & Bosses v3_91: 9109464536941570941
+      Enemies & Bosses v3_92: -5180632072292585687
+      Enemies & Bosses v3_93: -9150180617462538176
+      Enemies & Bosses v3_94: 6737900974127663932
+      Enemies & Bosses v3_95: -1724200735351967717
+      Enemies & Bosses v3_96: 3972619763246283683
+      Enemies & Bosses v3_97: 3495352866215594099
+      Enemies & Bosses v3_98: -981789589902155033
+      Enemies & Bosses v3_99: -1663130032862278358
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

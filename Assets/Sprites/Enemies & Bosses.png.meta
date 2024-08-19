@@ -390,7 +390,7 @@ TextureImporter:
       213: -1699848645976212761
     second: Enemies & Bosses_112
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -407,10 +407,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -449,6 +451,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -460,6 +464,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -472,6 +477,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -484,6 +490,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2284,9 +2304,94 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Enemies & Bosses_0: -5665603703198334654
+      Enemies & Bosses_1: -3677130104092000292
+      Enemies & Bosses_10: -4987521486865890235
+      Enemies & Bosses_11: 8218063389074734248
+      Enemies & Bosses_12: -7091093875099453031
+      Enemies & Bosses_13: 2790648809330751662
+      Enemies & Bosses_14: -8321249376189108094
+      Enemies & Bosses_15: 470223675873772129
+      Enemies & Bosses_16: 5589524641891375032
+      Enemies & Bosses_17: -5623426426435326318
+      Enemies & Bosses_18: 8463437926611366149
+      Enemies & Bosses_19: 3940834733855909614
+      Enemies & Bosses_2: -6732095269657428271
+      Enemies & Bosses_20: 7836743824008860511
+      Enemies & Bosses_21: 5550437288365815683
+      Enemies & Bosses_22: -5074358472694555389
+      Enemies & Bosses_23: 3322665774860074406
+      Enemies & Bosses_24: -528943031929771723
+      Enemies & Bosses_25: 1691252424010963080
+      Enemies & Bosses_26: 9080474030652760351
+      Enemies & Bosses_27: -1102123716925185090
+      Enemies & Bosses_28: -4802820724912260366
+      Enemies & Bosses_29: 4670813196751601886
+      Enemies & Bosses_3: -8127278185508520517
+      Enemies & Bosses_30: -4435688681214879224
+      Enemies & Bosses_31: 4635021956725165097
+      Enemies & Bosses_32: -3581339534658771056
+      Enemies & Bosses_33: -4906168823558971665
+      Enemies & Bosses_34: -3035780874276210037
+      Enemies & Bosses_35: -6032126076663475570
+      Enemies & Bosses_36: -2685129731555451194
+      Enemies & Bosses_37: 4853203448551372666
+      Enemies & Bosses_38: -5299864940716277781
+      Enemies & Bosses_39: -5408494871249443162
+      Enemies & Bosses_4: 3725914548176904715
+      Enemies & Bosses_40: 5441651687067573815
+      Enemies & Bosses_41: 9196749041968109669
+      Enemies & Bosses_42: 8799121522710254540
+      Enemies & Bosses_43: 8204068373194354073
+      Enemies & Bosses_44: 8154513032555483961
+      Enemies & Bosses_45: -3201163336584583792
+      Enemies & Bosses_46: 8518219624774331300
+      Enemies & Bosses_47: -2684217166640831388
+      Enemies & Bosses_48: -4312458103982370996
+      Enemies & Bosses_49: -9187111575191862229
+      Enemies & Bosses_5: 2885971822894527635
+      Enemies & Bosses_50: -8011133394273528803
+      Enemies & Bosses_51: 3401961805613153768
+      Enemies & Bosses_52: 8018675925144620511
+      Enemies & Bosses_53: 4906531119905726423
+      Enemies & Bosses_54: 5014020598390862208
+      Enemies & Bosses_55: -2531295180731269606
+      Enemies & Bosses_56: -4626277389984354222
+      Enemies & Bosses_57: 5681558087686263563
+      Enemies & Bosses_58: 2552983987534845103
+      Enemies & Bosses_59: -1737180655163050511
+      Enemies & Bosses_6: 3590174261732003434
+      Enemies & Bosses_60: 7014675081416231223
+      Enemies & Bosses_61: -5369371375671885436
+      Enemies & Bosses_62: 8243925467344149449
+      Enemies & Bosses_63: 1301389914798433959
+      Enemies & Bosses_64: 706450349378830423
+      Enemies & Bosses_65: -6933843478555970478
+      Enemies & Bosses_66: -8791730579624833053
+      Enemies & Bosses_67: -4860005806598370439
+      Enemies & Bosses_68: 524146067966130939
+      Enemies & Bosses_69: -754256176620099291
+      Enemies & Bosses_7: 1600405108149609685
+      Enemies & Bosses_70: -5179148642813353741
+      Enemies & Bosses_71: 8363582192392333271
+      Enemies & Bosses_72: 7034627922156303901
+      Enemies & Bosses_73: -2860914254716673522
+      Enemies & Bosses_74: 3868188014674741227
+      Enemies & Bosses_75: 2428076550916083917
+      Enemies & Bosses_76: 252805618150813703
+      Enemies & Bosses_77: 3787889144662072572
+      Enemies & Bosses_78: -7205614137551587301
+      Enemies & Bosses_79: 2626229568964814742
+      Enemies & Bosses_8: 5851395083720133736
+      Enemies & Bosses_80: 6383576314385840568
+      Enemies & Bosses_81: -2629267387633298184
+      Enemies & Bosses_82: 2979293344260982585
+      Enemies & Bosses_83: -1455855578007913914
+      Enemies & Bosses_84: -3139581660824432184
+      Enemies & Bosses_9: 5339496507552309257
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

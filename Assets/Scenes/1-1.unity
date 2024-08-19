@@ -8113,8 +8113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.35124192, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2.1724, y: 0.000015258789}
+  m_SizeDelta: {x: -4.3448, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356496843
 MonoBehaviour:
@@ -14607,7 +14607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30.058685, y: 0}
+  m_AnchoredPosition: {x: -18.9, y: 0}
   m_SizeDelta: {x: 149.04831, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1139176297 stripped
@@ -15218,8 +15218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35124192, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 91.4, y: -15.799999}
-  m_SizeDelta: {x: 26, y: 60}
+  m_AnchoredPosition: {x: 90.750015, y: -15.399999}
+  m_SizeDelta: {x: 27.899963, y: 60.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252056852
 MonoBehaviour:
@@ -17967,8 +17967,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 5.39, y: 0}
-  m_SizeDelta: {x: 114.18, y: 40}
+  m_AnchoredPosition: {x: 7.340763, y: 0}
+  m_SizeDelta: {x: 155.8, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1818136971
 PrefabInstance:
@@ -19788,6 +19788,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 743311898, guid: 9e997e6cd31a77f42b7957f90d3590c6, type: 3}
+      propertyPath: m_Volume
+      value: 0.503
+      objectReference: {fileID: 0}
+    - target: {fileID: 743311899, guid: 9e997e6cd31a77f42b7957f90d3590c6, type: 3}
+      propertyPath: m_Volume
+      value: 0.489
+      objectReference: {fileID: 0}
+    - target: {fileID: 743311900, guid: 9e997e6cd31a77f42b7957f90d3590c6, type: 3}
+      propertyPath: m_Volume
+      value: 0.51
+      objectReference: {fileID: 0}
     - target: {fileID: 849182642, guid: 9e997e6cd31a77f42b7957f90d3590c6, type: 3}
       propertyPath: superMario
       value: 

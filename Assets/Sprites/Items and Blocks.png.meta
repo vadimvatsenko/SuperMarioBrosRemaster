@@ -150,7 +150,7 @@ TextureImporter:
       213: 6383446056389688669
     second: Items and Blocks_50
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -167,10 +167,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -209,6 +211,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -220,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -232,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -244,6 +250,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1288,9 +1308,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Items and Blocks_0: 7058683599747769791
+      Items and Blocks_1: -1750861957645032202
+      Items and Blocks_10: 805589478516270392
+      Items and Blocks_11: 3051757560087918595
+      Items and Blocks_12: 2215656911702265635
+      Items and Blocks_13: 4246466568637208709
+      Items and Blocks_14: -4378505401409038338
+      Items and Blocks_15: 6656131421378916845
+      Items and Blocks_16: 5085058664239270553
+      Items and Blocks_17: -7899064199776288378
+      Items and Blocks_18: 539206260459888591
+      Items and Blocks_19: 4614674765236384812
+      Items and Blocks_2: -8799923911552847054
+      Items and Blocks_20: -1498182884376415036
+      Items and Blocks_21: 2583446104122675956
+      Items and Blocks_23: -659087598569320460
+      Items and Blocks_24: 7185825537890422176
+      Items and Blocks_25: -2118069244095854623
+      Items and Blocks_27: -6170029529649794987
+      Items and Blocks_28: 5904045658806639212
+      Items and Blocks_29: 2909691181606501540
+      Items and Blocks_3: -1049017425978662445
+      Items and Blocks_30: 4256349083618711771
+      Items and Blocks_31: -8688452675609674474
+      Items and Blocks_32: -5350163989008776467
+      Items and Blocks_33: -4454812287570451000
+      Items and Blocks_34: 3796505904201942952
+      Items and Blocks_35: -873260020727315917
+      Items and Blocks_36: 99032467785521956
+      Items and Blocks_37: -6832004802387113546
+      Items and Blocks_38: -887432506319224777
+      Items and Blocks_39: -1468233132767152086
+      Items and Blocks_4: -1005094933500502333
+      Items and Blocks_40: 2189251495171770528
+      Items and Blocks_41: -3835903893940259223
+      Items and Blocks_42: 3316434077621320906
+      Items and Blocks_43: -3457604746864395497
+      Items and Blocks_44: 7091053944777199152
+      Items and Blocks_45: -5375826514654991936
+      Items and Blocks_46: 5578294796561948293
+      Items and Blocks_47: 3172934431509463253
+      Items and Blocks_48: -1043729399867471481
+      Items and Blocks_49: 4843424116544055169
+      Items and Blocks_5: 3505177002841020875
+      Items and Blocks_50: 6383446056389688669
+      Items and Blocks_6: 8387725902155246166
+      Items and Blocks_7: -8300090778939077686
+      Items and Blocks_8: 5471823284305390875
+      Items and Blocks_9: 1778348591284498484
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

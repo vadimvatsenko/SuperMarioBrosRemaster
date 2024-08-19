@@ -1,0 +1,82 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+MemoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+# *.asset
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# [Aa]ssets/AssetStoreTools*
+
+# Visual Studio
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.unityproj
+
+# Visual Studio auto-generated files
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Rider
+.idea/
+*.sln.iml
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+[Bb]uilds/
+[Bb]uild/
+
+# Crashlytics
+[Oo]bj/**/CrashlyticsBuildId
+
+# Auto-generated JetBrains Rider plugin files
+*.sln.DotSettings
+
+# Npm & Yarn directories
+node_modules/
+
+# Package files
+*.apk
+*.aab
+
+# Unity Cloud Build
+/Library/Collab/
+
+# Avoid committing secrets, sensitive data, or large files
+[Uu]ser/
+**/*.unitypackage
+**/*.unitypackage.meta
+**/*.fbx
+**/*.fbx.meta
+[Uu]ser/Library/
+
+# Ignore Asset Store folders
+[Aa]ssets/AssetStoreTools*
+
+# Ignore hidden folders
+.DS_Store

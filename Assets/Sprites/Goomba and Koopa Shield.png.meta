@@ -63,7 +63,7 @@ TextureImporter:
       213: 6969091447559909505
     second: Goomba and Koopa Shield_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,10 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +124,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +150,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +163,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -571,9 +591,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Goomba and Koopa Shield_0: -5148583568959742685
+      Goomba and Koopa Shield_1: -5032523045288767993
+      Goomba and Koopa Shield_10: 7427218706473623446
+      Goomba and Koopa Shield_11: -801355968180915583
+      Goomba and Koopa Shield_12: 4539769131912687168
+      Goomba and Koopa Shield_13: 3334135268527968161
+      Goomba and Koopa Shield_14: -3091226428956835639
+      Goomba and Koopa Shield_15: 9133904523115184349
+      Goomba and Koopa Shield_16: -2430062138146960823
+      Goomba and Koopa Shield_17: 8733502240388774944
+      Goomba and Koopa Shield_18: -7318163153941585169
+      Goomba and Koopa Shield_2: 1569553300198405410
+      Goomba and Koopa Shield_3: 5260100862737093243
+      Goomba and Koopa Shield_4: 107819359238516372
+      Goomba and Koopa Shield_5: 6902377639117534259
+      Goomba and Koopa Shield_6: -3716721775304173649
+      Goomba and Koopa Shield_7: 4476018451449022400
+      Goomba and Koopa Shield_8: -2121879154981267777
+      Goomba and Koopa Shield_9: 6914751900422679816
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
